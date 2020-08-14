@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // "module": "commonjs",
+    "target": "es5",
+    "strict": true,
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    // "strictNullChecks": false,
+    // 不生成文件，只做类型检查
+    "noEmit": true,
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
